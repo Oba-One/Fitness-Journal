@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import { CssBaseline } from '@material-ui/core'
-import { Header, Footer } from './Layouts'
-import Exercises from './Exercises'
-import { muscles, exercises } from '../store'
-import { Provider } from '../context'
+import { Header, Footer } from './components/layouts'
+import Exercises from './components/exercises'
+import { muscles, exercises } from './store'
+import { Provider } from './context'
 
 export default class extends Component {
   state = {
